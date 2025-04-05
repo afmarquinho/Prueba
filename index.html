@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bancoop, banco de Colombia de interés social"
+    />
+    <meta
+      name="keywords"
+      content="Bancoop, Bancoop.com, Bancoop.com.br, Bancoop.org, Bancoop.org.br"
+    />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bancoop</title>
+  </head>
+  <body>
+    <!-- *Inicio header  -->
+    <header class="header">
+      <!-- Hero  -->
+      <div class="hero">
+        <div class="titulo-contenedor">
+          <h1 class="titulo">Bancoop</h1>
+          <p class="slogan">Te ayuda a alcanzar tus metas</p>
+        </div>
+        <div class="img-logo"></div>
+      </div>
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <a href="#" class="link navbar-link">Créditos</a>
+        <a href="#" class="link navbar-link">Leasing</a>
+        <a href="#" class="link navbar-link">Ahorros</a>
+        <a href="#" class="link navbar-link">Servicio al cliente</a>
+      </nav>
+    </header>
+    <!-- * **Fin header** *  -->
+
+    <!-- * **Inicio del main** *  -->
+    <main class="main">
+      <!--Aside-->
+      <aside class="aside">
+        <!-- Formulario de inicio de sesión -->
+        <form action="" class="formulario">
+          <h2 class="formulario-titulo">Ingresa a tu cuenta</h2>
+          <div class="mensaje"></div>
+          <div class="formulario-campos">
+            <label class="campos-etiqueta-cuenta etiqueta">
+              <span> Cuenta </span>
+              <input type="number" class="cuenta" id="cuenta"/>
+            </label>
+            <label class="campos-etiqueta-tipo etiqueta">
+              <span> Tipo </span>
+              <select class="tipo-cuenta" id="tipo-cuenta">
+                <option value="">--Seleccione--</option>
+                <option value="ahorros">Ahorros</option>
+                <option value="corriente">Corriente</option>
+              </select>
+            </label>
+            <label class="campos-etiqueta-clave etiqueta">
+              <span> Clave </span>
+              <input type="password" class="password" id="password"/>
+            </label>
+            <input type="submit" value="Ingresar" class="campos-boton boton-enviar" />
+          </div>
+        </form>
+
+        <!-- Sucursal virtual -->
+        <div class="sucursal-virtual">
+          <h2 class="transacciones titulo">Transacciones</h2>
+          <a href="#" class="banca-persona link">Banca Personal</a>
+          <a href="#" class="banca-empresarial link">Banca empresarial</a>
+          <a href="#" class="banca-seguros link">Banca seguros</a>
+          <a href="#" class="pago-facturas link">Pago de facturas</a>
+
+          <h2 class="tarjetas-credito titulo">Tarjetas de crédito</h2>
+          <a href="#" class="credi-visa link">Credi Visa</a>
+          <a href="#" class="credi-mastercard link">Credi Mastercard</a>
+        </div>
+      </aside>
+
+      <!-- Section -->
+      <section class="section">
+        <!-- tarjeta 1 -->
+        <article class="tarjeta-contenedor">
+          <div class="tarjeta-1 tarjeta">
+            <h3 class="titulo-tarjeta">Solicita nuestros productos</h3>
+
+            <div class="cuerpo-tarjeta">
+              <div class="img-tarjeta img-tarjeta-1"></div>
+              <p class="texto-tarjeta">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus doloremque ex illum nisi vel obcaecati temporibus
+                laborum accusamus libero commodi.
+              </p>
+            </div>
+          </div>
+
+          <!-- tarjeta 2 -->
+          <div class="tarjeta-2 tarjeta">
+            <h3 class="titulo-tarjeta">Ahorro estudiantil</h3>
+            <div class="cuerpo-tarjeta">
+              <div class="img-tarjeta img-tarjeta-2"></div>
+              <p class="texto-tarjeta">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus doloremque ex illum nisi vel obcaecati temporibus
+                laborum accusamus libero commodi.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="tarjeta-contenedor">
+          <!-- tarjeta 3 -->
+          <div class="tarjeta-3 tarjeta">
+            <h3 class="titulo-tarjeta">Crédito vehículo</h3>
+            <div class="cuerpo-tarjeta">
+              <div class="img-tarjeta img-tarjeta-3"></div>
+              <p class="texto-tarjeta">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus doloremque ex illum nisi vel obcaecati temporibus
+                laborum accusamus libero commodi.
+              </p>
+            </div>
+          </div>
+
+          <!-- tarjeta 4 -->
+          <div class="tarjeta-4 tarjeta">
+            <h3 class="titulo-tarjeta">Crédito hipotecario</h3>
+            <div class="cuerpo-tarjeta">
+              <div class="img-tarjeta img-tarjeta-4"></div>
+              <p class="texto-tarjeta">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus doloremque ex illum nisi vel obcaecati temporibus
+                laborum accusamus libero commodi.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!-- * **Fin del main** *  -->
+
+    <!-- * **Inicio del footer** *  -->
+    <footer class="footer">
+      <p class="contactenos">Contáctenos</p>
+      <p class="telefono">Línea gratuita: <a href="#">018000-00001</a></p>
+      <p>Banco entidad financiera - Todos los derechos reservados</p>
+    </footer>
+    <!-- * **Fin del footer** *  -->
+     <script src="./app.js"></script>
+  </body>
+</html>
